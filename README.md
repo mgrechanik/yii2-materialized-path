@@ -63,7 +63,7 @@ to the require section of your `composer.json`
 
 This extension expects additional columns in the database table which are responsible to keep a tree.
 
-Example of migration for a table with many trees look [here](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/migrations/m170208_094405_create_menuitem_table.php)
+Example of migration for a table with many trees look [here](tests/migrations/m170208_094405_create_menuitem_table.php)
 
 And here is example of [migration](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/migrations/m170208_094404_create_animal_table.php) for a table with only one tree:
 

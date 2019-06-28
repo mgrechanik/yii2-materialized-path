@@ -1,5 +1,7 @@
 # Creating a catalog at Yii2  using [Materialized path](https://github.com/mgrechanik/yii2-materialized-path) extension
 
+[Русская версия](catalog_ru.md)
+
 ## Table of contents
 
 * [Introduction](#intro)

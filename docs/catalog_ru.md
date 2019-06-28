@@ -1,5 +1,7 @@
 # Создание каталога на Yii2 с использованием [Materialized path](https://github.com/mgrechanik/yii2-materialized-path) расширения
 
+[English version](catalog.md)
+
 ## Содержание
 
 * [Введение](#intro)
