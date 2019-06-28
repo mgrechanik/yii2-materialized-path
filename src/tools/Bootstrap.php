@@ -19,8 +19,8 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         \Yii::$container->setSingleton(
-            mgrechanik\yiimaterializedpath\ServiceInterface::class, 
-            mgrechanik\yiimaterializedpath\Service::class
+            \mgrechanik\yiimaterializedpath\ServiceInterface::class, 
+            \mgrechanik\yiimaterializedpath\Service::class
         );
     }
 }
