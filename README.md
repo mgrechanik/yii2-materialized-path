@@ -65,7 +65,7 @@ This extension expects additional columns in the database table which are respon
 
 Example of migration for a table with many trees look [here](tests/migrations/m170208_094405_create_menuitem_table.php)
 
-And here is example of [migration](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/migrations/m170208_094404_create_animal_table.php) for a table with only one tree:
+And here is example of [migration](tests/migrations/m170208_094404_create_animal_table.php) for a table with only one tree:
 
 ```php
 use yii\db\Migration;
@@ -166,8 +166,8 @@ When table holds many trees: <span id="menuitem-table">
 ![Tree presentation in the database](https://raw.githubusercontent.com/mgrechanik/yii2-materialized-path/master/docs/images/menuitem.png "Tree in DB")
 
 > For following examples we will use the trees above.  
-> For the first table there is [Animal](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/models/Animal.php) ActiveRecord model.  
-> For the second table there is [Menuitem](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/models/Menuitem.php) ActiveRecord model.
+> For the first table there is [Animal](tests/models/Animal.php) ActiveRecord model.  
+> For the second table there is [Menuitem](tests/models/Menuitem.php) ActiveRecord model.
 
 
 Common things we see:
@@ -857,7 +857,7 @@ Array
 ```
 
 This array is ready (when used with `$indexBy`) to be given to Data Provider, for example have a look
-at the catalog view page - `actionIndex` -  in [calalog controller](docs/catalog.md#controller).
+at the catalog view page - `actionIndex` -  in [catalog controller](docs/catalog.md#controller).
 
 To transform this array into `$items` for  `Yii`'s built-in `listBox` 
 we would need the next helper:

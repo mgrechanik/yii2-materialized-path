@@ -63,9 +63,9 @@ composer require --prefer-dist mgrechanik/yii2-materialized-path
 
 Данное расширение ожидает наличие в таблице дополнительных полей, отвечающих за хранение дерева.
 
-Пример миграции для таблицы содержащей много деревьев смотрите [здесь](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/migrations/m170208_094405_create_menuitem_table.php).
+Пример миграции для таблицы содержащей много деревьев смотрите [здесь](../tests/migrations/m170208_094405_create_menuitem_table.php).
 
-А вот пример [миграции](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/migrations/m170208_094404_create_animal_table.php) для таблицы с одним деревом:
+А вот пример [миграции](../tests/migrations/m170208_094404_create_animal_table.php) для таблицы с одним деревом:
 
 ```php
 use yii\db\Migration;
@@ -166,8 +166,8 @@ class Animal extends \yii\db\ActiveRecord
 ![Представление дерева в БД](https://raw.githubusercontent.com/mgrechanik/yii2-materialized-path/master/docs/images/menuitem.png "Дерево в БД")
 
 > Для дальнейших примеров будем использовать данные деревья.  
-> Для первой таблицы создана ActiveRecord модель [Animal](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/models/Animal.php).  
-> Для второй таблицы создана ActiveRecord модель [Menuitem](https://github.com/mgrechanik/yii2-materialized-path/blob/master/tests/models/Menuitem.php).
+> Для первой таблицы создана ActiveRecord модель [Animal](../tests/models/Animal.php).  
+> Для второй таблицы создана ActiveRecord модель [Menuitem](../tests/models/Menuitem.php).
 
 
 Итак общее что мы видим:
