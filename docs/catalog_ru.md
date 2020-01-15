@@ -365,7 +365,7 @@ use frontend\models\CatalogForm;
 // building a flat tree
 $service = $catalogForm->service;
 $root = $service->getRoot(Catalog::class);
-$tree = $service->buildFlatTree($root, true, true, $catalogForm->getExceptIds());
+$tree = $service->buildFlatTree($root, true, true, false, $catalogForm->getExceptIds());
 $items = $service->buildSelectItems($tree, function($node) {
     return ($node['id'] < 0) ? '- root' : '' . str_repeat('  ', $node['level']) . str_repeat('-', $node['level']) .
         ' ' . Html::encode($node['name']) . '';
